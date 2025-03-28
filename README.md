@@ -4,8 +4,10 @@
 このソースコードや手順の実行による一切の責任は取りません。
 
 # Client側のコード変更
-MapComponent.tsx の 以下の行を修正
+MapComponent.tsx の 以下の行を修正 
+```
 const PMTILES_URL = ""; // アップロードしたS3のPMTilesのURL
+```
 
 # S3 の設定
 PMTiles を S3 にアップロード後、次の設定をS3バケットで行う事
