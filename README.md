@@ -56,4 +56,4 @@ PMTiles を S3 にアップロード後、次の設定をS3バケットで行う
 # 実行方法
 * `docker-compose up --build` でコンテナ起動
 * ブラウザで`http://localhost:5173/`にアクセス。
-* 日本国土が青色っぽくなっていたら成功です。失敗していると、他の国と同じ色合いになります
+* https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_1.html の全国データを PMTiles として使用する場合、日本国土が青色っぽくなっていたら成功です。失敗していると、他の国と同じ色合いになります
